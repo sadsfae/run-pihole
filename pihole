@@ -103,3 +103,16 @@ echo ""
 echo "Source the $top/aliases.bash file for some useful aliases."
 echo ""
 echo ". $top/aliases.bash"
+
+echo ""
+echo "Attempting to switch to localhost for DNS if supported."
+echo ""
+
+case $os in
+  Linux)
+    sudo python tools/mod-resolveconf.py localhost
+    ;;
+  '*')
+    echo "OS not supported for this yet":
+esac
+
