@@ -110,9 +110,13 @@ echo ""
 
 case $os in
   Linux)
-    sudo python tools/mod-resolveconf.py localhost
+    cd ../tools
+    sudo python mod-resolveconf.py localhost
+    echo "Run tools/mod-resolveconf.py system to revert this setting"
+    echo ""
     ;;
   '*')
     echo "OS not supported for this yet":
+    echo ""
 esac
 
