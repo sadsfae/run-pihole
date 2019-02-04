@@ -42,6 +42,22 @@ By default, this script is set up to use the Quad9 DNS servers.
 Once the pihole container is up, set up your laptop's DNS to
 use 127.0.0.1 as its DNS.
 
+## Set up Linux DNS against localhost
+
+By default on Linux we'll try and set this for you, first testing that dig returns a positive result.
+
+You can run this yourself as well:
+
+```
+tools/mod-resolveconf.py localhost
+```
+
+To revert to your previous DNS settings:
+
+```
+tools/mod-resolveconf.py system
+```
+
 ## Set up MacOS DNS settings via commandline
 
 From http://osxdaily.com/2015/06/02/change-dns-command-line-mac-os-x/
