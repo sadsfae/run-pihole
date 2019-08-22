@@ -69,7 +69,7 @@ links.services.disqus.com ump.plex.tv meta.plex.tv goo.gl \
 cdnjs.cloudflare.com cf.iadsdk.apple.com redirector.gvt1.com wp.com \
 s1.wp.com guardaserie.watch ocsp.apple.com api.thetvdb.com thetvdb.com \
 yt3.ggpht.com img1.wsimg.com cdn.districtm.ca youtu.be \
-opensubtitles.org www.opensubtitles.org t.coa
+opensubtitles.org www.opensubtitles.org t.co js.pusher.com
 
 pihole -b dxp.baidu.com hmma.baidu.com pasta.esfile.duapps.com \
 neweegg.net config.a-mo.net nrc.tapas.net xpu.samsungelectronics.com \
